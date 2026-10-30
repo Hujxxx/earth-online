@@ -72,7 +72,7 @@ export function budgetView(r){
  ['≈ 想象中包下一整条主角街','玩家突然上头'],
  ['≈ 给你单独开一台地球服务器','玩家预算失去上限']];
  const tier=amount===0?0:amount<10?1:amount<100?2:amount<1000?3:amount<10000?4:amount<1e6?5:amount<1e8?6:amount<1e10?7:8;
- return {...budget,equivalent:tiers[tier][0],tag:tiers[tier][1],tier,note:'氪金金额独立抽取，属性由答题决定；两者都不代表现实能力或人的价值。'};
+ return {...budget,equivalent:tiers[tier][0],tag:tiers[tier][1],tier,note:'金额为虚构剧情，不代表现实财产、能力或人的价值。'};
 }
 
 export function playerNote(r){
