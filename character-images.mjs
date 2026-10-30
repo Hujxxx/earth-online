@@ -1,165 +1,218 @@
 export const DEFAULT_CHARACTER_IMAGES={
   "1": {
-    "url": "/experience/assets/portraits/uniform-v9-1.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-1.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "2": {
-    "url": "/experience/assets/portraits/uniform-v9-2.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-2.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "3": {
-    "url": "/experience/assets/portraits/uniform-v9-3.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-3.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "4": {
-    "url": "/experience/assets/portraits/uniform-v9-4.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-4.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "5": {
-    "url": "/experience/assets/portraits/uniform-v9-5.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-5.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "6": {
-    "url": "/experience/assets/portraits/uniform-v9-6.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-6.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
     "originalArchetype": false,
-    "styleVersion": "watercolor-pencil-v9"
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "7": {
-    "url": "/experience/assets/portraits/uniform-v9-7.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-7.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "8": {
-    "url": "/experience/assets/portraits/uniform-v9-8.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-8.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "9": {
-    "url": "/experience/assets/portraits/uniform-v9-9.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-9.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
     "originalArchetype": false,
-    "styleVersion": "watercolor-pencil-v9"
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "10": {
-    "url": "/experience/assets/portraits/uniform-v9-10.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-10.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
     "originalArchetype": false,
-    "styleVersion": "watercolor-pencil-v9"
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "11": {
-    "url": "/experience/assets/portraits/uniform-v9-11.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-11.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
     "originalArchetype": false,
-    "styleVersion": "watercolor-pencil-v9"
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "12": {
-    "url": "/experience/assets/portraits/uniform-v9-12.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-12.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
     "originalArchetype": false,
-    "styleVersion": "watercolor-pencil-v9"
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "13": {
-    "url": "/experience/assets/portraits/uniform-v9-13.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-13.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
     "originalArchetype": false,
-    "styleVersion": "watercolor-pencil-v9"
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "14": {
-    "url": "/experience/assets/portraits/cast-v5-14.png",
-    "source": "本项目生成的真人影视与历史人物意象插画",
+    "url": "./portrait-v12-14.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "15": {
-    "url": "/experience/assets/portraits/uniform-v9-15.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-15.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "16": {
-    "url": "/experience/assets/portraits/cast-v5-16.png",
-    "source": "本项目生成的真人影视与历史人物意象插画",
+    "url": "./portrait-v12-16.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "17": {
-    "url": "/experience/assets/portraits/17.png",
-    "source": "本项目生成的人物插画",
+    "url": "./portrait-v10-17.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": false
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v10",
+    "width": 512,
+    "height": 512
   },
   "18": {
-    "url": "/experience/assets/portraits/uniform-v9-18.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-18.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
     "originalArchetype": false,
-    "styleVersion": "watercolor-pencil-v9"
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "19": {
-    "url": "/experience/assets/portraits/uniform-v9-19.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-19.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
     "originalArchetype": false,
-    "styleVersion": "watercolor-pencil-v9"
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "20": {
-    "url": "/experience/assets/portraits/uniform-v9-20.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-20.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "21": {
-    "url": "/experience/assets/portraits/21.png",
-    "source": "本项目生成的原创意象插画",
+    "url": "./portrait-v12-21.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "22": {
-    "url": "/experience/assets/portraits/uniform-v9-22.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-22.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "23": {
-    "url": "/experience/assets/portraits/cast-v5-23.png",
-    "source": "本项目生成的真人影视与历史人物意象插画",
+    "url": "./portrait-v12-23.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   },
   "24": {
-    "url": "/experience/assets/portraits/uniform-v9-24.png",
-    "source": "本项目生成的水彩与铅笔线条统一风格人物插画",
+    "url": "./portrait-v12-24.webp",
+    "source": "项目生成的统一水彩人物插画 · 已优化手机加载",
     "generated": true,
-    "originalArchetype": true,
-    "styleVersion": "watercolor-pencil-v9"
+    "originalArchetype": false,
+    "styleVersion": "watercolor-v12",
+    "width": 512,
+    "height": 768
   }
 };
