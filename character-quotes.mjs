@@ -6,7 +6,7 @@ export const CHARACTER_QUOTES={
  3:{text:'我不是很聪明，但我知道什么是爱。',speaker:'阿甘',work:'阿甘正传',url:'https://www.imdb.com/title/tt0109830/quotes/?item=qt3362658',note:'台词中译'},
  4:{text:'希望是个好东西。',speaker:'安迪',work:'肖申克的救赎',url:'https://www.imdb.com/title/tt0111161/quotes?item=qt0470728',note:'台词中译节选'},
  5:{text:'喜欢唱、跳、Rap、篮球。',speaker:'练习两年半的练习生',work:'偶像练习生 · 自我介绍',url:'https://ent.ifeng.com/c/7umugnBmJCy',note:'经典自我介绍节选'},
- 6:{text:'愿侬此日生双翼，随花飞到天尽头。',speaker:'林黛玉',work:'红楼梦 · 葬花吟',url:'https://m.gushiwen.cn/mingju/juv_033abdb79e82.aspx',note:'原著诗句节选'},
+ 6:{text:'还是单送我一人，还是别的姑娘们都有的？我就知道，别人不挑剩下的，也不给我。',speaker:'林黛玉',work:'红楼梦 · 第七回 · 送宫花',url:'https://www.shidianguji.com/book/SWX0013/chapter/1l0pypjf702l7',note:'原著对白节选'},
  7:{text:'陆地对我来说，是一艘太大的船。',speaker:'1900',work:'海上钢琴师',url:'https://www.imdb.com/title/tt0120731/quotes/',note:'台词中译节选'},
  8:{text:'振作点，别灰心！我们会有办法的。',speaker:'流浪汉',work:'摩登时代',url:'https://www.moma.org/documents/moma_catalogue_2136_300062892.pdf',note:'对白字幕中译'},
  9:{text:'既然我活了下来，就不会白白地活着。',speaker:'梅长苏',work:'琅琊榜',url:'https://zz.mnw.cn/zh/yl/996010.html',note:'经典台词'},
@@ -22,40 +22,10 @@ export const CHARACTER_QUOTES={
  19:{text:'因为这是我的选择。',speaker:'尼奥',work:'黑客帝国3：矩阵革命',url:'https://www.matrixfans.net/movies/the-matrix-revolutions/transcript/',note:'经典台词中译'},
  20:{text:'凉风有信，秋月无边。',speaker:'韦小宝',work:'小宝与康熙',url:'https://ent.sina.cn/review/media/2006-08-09/detail-icczmvun4173734.d.html?from=wap',note:'人物引用《客途秋恨》节选'},
  21:{text:'假如再也见不到你，祝你早安、午安、晚安。',speaker:'楚门',work:'楚门的世界',url:'https://www.simaqingshan.com/post/1658.html',note:'台词中译'},
- 22:{text:'你的骨头不是玻璃做的。',speaker:'画家杜法耶写给艾米丽',work:'天使爱美丽',url:'https://assets.scriptslug.com/live/pdf/scripts/amelie-2001.pdf?v=1729114858',note:'给这个角色的一句话 · 台词中译节选'},
+ 22:{text:'连洋蓟都有心。',speaker:'艾米丽',work:'天使爱美丽',url:'https://assets.scriptslug.com/live/pdf/scripts/amelie-2001.pdf?v=1729114858',note:'角色台词中译节选'},
  23:{text:'想象力比知识更重要。',speaker:'爱因斯坦',work:'1929年访谈',url:'https://quoteinvestigator.com/2013/01/01/einstein-imagination/',note:'名言中译节选'},
  24:{text:'说的是一辈子！',speaker:'程蝶衣',work:'霸王别姬',url:'https://news.culr.edu.cn/xlzx/xlyy/61d9225cf6cf4597b8091786e59d4748.htm',note:'台词节选'}
 };
 
-// Only use a canonical quote when one of the strongest visible attributes supports it.
-// Otherwise prefer a relevant editorial line, explicitly labelled as original writing.
-const QUOTE_MATCHES={
- 1:['探索欲','自主值'],4:['探索欲','耐力值','侦查值'],8:['沟通值','协作值','战术规划'],
- 10:['侦查值','洞察力'],11:['创造力','熟练度'],12:['支援值','创造力'],
- 14:['支援值','耐力值','恢复力'],16:['共情值','羁绊值'],17:['协作值','沟通值'],
- 18:['行动力','熟练度'],19:['探索欲','侦查值'],21:['自主值','探索欲'],
- 22:['共情值','支援值','羁绊值'],23:['脑洞值','探索欲']
-};
-const QUOTE_CONNECTIONS={
- 1:'你愿意亲自试一试，也在意下一步能不能由自己决定。',
- 4:'你愿意给长期的事留时间；希望也可以落实成今天能做的一小步。',
- 8:'你会用沟通和一点幽默接住难题，也值得有人陪你一起想办法。',
- 10:'你在意依据，愿意多核实一步；这份认真值得用在真正重要的问题上。',
- 11:'你愿意把想法变成实际尝试。灵感需要出口，尝试也需要允许失败的空间。',
- 12:'你很容易替别人多想一步，但能帮忙和必须帮忙，是两回事。',
- 14:'你愿意认真帮人，也请给自己留一点不必独自扛事的余地。',
- 16:'你不一定擅长热闹的表达，但关心也可以有自己清楚、具体的方式。',
- 17:'你愿意和人一起把事情推进。同行的体验，有时比最后拿到了什么更值得留下。',
- 18:'你愿意行动、愿意练习。真正可用的底气，也包括允许自己暂时做不好。',
- 19:'你愿意了解事实，再为自己的选择负责，不轻易把判断交给别人的声音。',
- 21:'你可以带着善意离开熟悉的安排，给真正想过的生活留一个入口。',
- 22:'你习惯照顾别人的需要，也可以试着直接表达自己的心意和期待。',
- 23:'你愿意追问还有没有别的可能；好奇心不必总按标准答案规定的方向生长。'
-};
-export function resultQuote(roleId,skills,originalText){
- const highest=Math.max(...skills.map(s=>s.level));
- const matches=QUOTE_MATCHES[roleId]||[];
- const supported=skills.some(s=>s.level===highest&&matches.includes(s.name));
- if(supported)return {...CHARACTER_QUOTES[roleId],original:false,connection:QUOTE_CONNECTIONS[roleId]};
- return {text:originalText,speaker:'地球 Online',work:'本次结果寄语',note:'项目原创 · 非角色原台词',url:null,original:true,connection:''};
-}
+// Show a sourced character quotation, independent of attribute levels.
+export function resultQuote(roleId){return {...CHARACTER_QUOTES[roleId],original:false,connection:''};}
